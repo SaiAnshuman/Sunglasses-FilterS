@@ -1,0 +1,45 @@
+h3{
+
+    font-size: medium;
+    color: goldenrod;
+    
+    }
+    
+    .btn-primary:hover{
+    
+        background-color: red;
+        animation-name: color_change;
+        animation-duration: 2s;
+        animation-iteration-count:infinite;
+    
+    }
+    
+    @keyframes color_change{
+     
+        from{color: darkred;}
+        to{color: hotpink;}
+    
+    }
+    
+    canvas{
+    
+     border: 5px dotted orange;
+     animation-name:fade;
+     animation-duration:4s;
+     animation-iteration-count: infinite;
+    
+    }
+    
+    @keyframes fade{
+    
+      from{box-shadow: 12px 10px 79px red;}
+      to{box-shadow: 12px 10px 79px purple;}
+    
+    }
+    
+    body{
+    
+     background-position: center;
+     background-size:cover;
+    
+    }
